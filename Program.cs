@@ -10,51 +10,57 @@ namespace _4._2_Mod_Pract
 
             var color = Console.ReadLine();
 
-            switch (color)
+            for (int i = 1; i < 5; i++)
+
             {
-                case "red":
+                Console.WriteLine("Iteration > {0}", i);
 
-                    Console.BackgroundColor = ConsoleColor.Red;
+                switch (color)
 
-                    Console.ForegroundColor = ConsoleColor.Black;
+                {
+                    case "red":
 
-                    Console.WriteLine("Your fav color is red!");
+                        Console.BackgroundColor = ConsoleColor.Red;
 
-                    break;
+                        Console.ForegroundColor = ConsoleColor.Black;
 
-                case "green":
+                        Console.WriteLine("Your fav color is red!");
 
-                    Console.BackgroundColor = ConsoleColor.Green;
+                        break;
 
-                    Console.ForegroundColor = ConsoleColor.Black;
+                    case "green":
 
-                    Console.WriteLine("Your fav color is green!");
+                        Console.BackgroundColor = ConsoleColor.Green;
 
-                    break;
+                        Console.ForegroundColor = ConsoleColor.Black;
 
-                case "cyan":
+                        Console.WriteLine("Your fav color is green!");
 
-                    Console.BackgroundColor = ConsoleColor.Cyan;
+                        break;
 
-                    Console.ForegroundColor = ConsoleColor.Black;
+                    case "cyan":
 
-                    Console.WriteLine("Your fav color is cyan!");
+                        Console.BackgroundColor = ConsoleColor.Cyan;
 
-                    break;
+                        Console.ForegroundColor = ConsoleColor.Black;
 
-                default:
+                        Console.WriteLine("Your fav color is cyan!");
 
-                    Console.BackgroundColor = ConsoleColor.Yellow;
+                        break;
 
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    default:
 
-                    Console.WriteLine("You didn't pick up the color!");
+                        Console.BackgroundColor = ConsoleColor.Yellow;
 
-                    break;
+                        Console.ForegroundColor = ConsoleColor.Red;
 
+                        Console.WriteLine("You didn't pick up the color!");
+
+                        break;
+                }
+
+                Console.ReadKey();
             }
-
-            Console.ReadKey();
         }
     }
-}
+ }
