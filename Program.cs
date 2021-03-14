@@ -10,8 +10,11 @@ namespace _4._2_Mod_Pract
 
             var color = Console.ReadLine();
 
-            for (int i = 5; i <= 5; i--) 
-            {
+            for (; ;)
+
+                for (int i = 5; i <= 5; i--)
+
+                {
                 Console.WriteLine("Iteration > {0}", i);
 
                 switch (Console.ReadLine())
