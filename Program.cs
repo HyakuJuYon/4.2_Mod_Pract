@@ -15,7 +15,7 @@ namespace _4._2_Mod_Pract
             {
                 Console.WriteLine("Iteration > {0}", i);
 
-                switch (color)
+                switch (Console.ReadLine())
 
                 {
                     case "red":
@@ -26,7 +26,7 @@ namespace _4._2_Mod_Pract
 
                         Console.WriteLine("Your fav color is red!");
 
-                        break;
+                    break;
 
                     case "green":
 
@@ -36,7 +36,7 @@ namespace _4._2_Mod_Pract
 
                         Console.WriteLine("Your fav color is green!");
 
-                        break;
+                    break;
 
                     case "cyan":
 
@@ -46,7 +46,7 @@ namespace _4._2_Mod_Pract
 
                         Console.WriteLine("Your fav color is cyan!");
 
-                        break;
+                    break;
 
                     default:
 
@@ -56,7 +56,7 @@ namespace _4._2_Mod_Pract
 
                         Console.WriteLine("You didn't pick up the color!");
 
-                        break;
+                    break;
                 }
 
                 Console.ReadKey();
